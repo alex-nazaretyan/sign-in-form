@@ -1,0 +1,157 @@
+body {
+    background-color: #f1f2f3;
+}
+.login-form-wrapper {
+    display: flex;
+    width: 70%;
+    margin: 150px auto;
+    .img-article {
+        width: 30%;
+        img {
+            width: 100%;
+        }
+    }
+    .login-form-wrapper__content {
+        background-color: white;
+        width: 65%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        form {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            grid-gap: 25px;
+            .name-wrapper {
+                .name-wrapper__label {
+                    color: black;
+                    margin-right: 65px;
+                }
+                .name-wrapper__input {
+                    padding: 10px;
+                    width: 300px;
+                    border: 2px solid #dee7e9;
+                    background-color: #fdfdfe;
+                    cursor: text;
+                    &::placeholder {
+                        color: #dee7e9;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .gender-wrapper {
+                #male {
+                    margin-left: 55px;
+                }
+            }
+            .date-of-birth-wrapper {
+                .date-of-birth-wrapper__label {
+                    color: black;
+                    margin-right: 20px;
+                }
+                .date-of-birth-wrapper__input {
+                    padding: 10px;
+                    width: 300px;
+                    border: 2px solid #dee7e9;
+                    background-color: #fdfdfe;
+                    cursor: text;
+                    &::placeholder {
+                        color: #dee7e9;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .email-wrapper {
+                .email-wrapper__label {
+                    color: black;
+                    margin-right: 65px;
+                }
+                .email-wrapper__input {
+                    padding: 10px;
+                    width: 300px;
+                    border: 2px solid #dee7e9;
+                    background-color: #fdfdfe;
+                    cursor: text;
+                    &::placeholder {
+                        color: #dee7e9;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .city-wrapper {
+                .city-wrapper__label {
+                    color: black;
+                    margin-right: 74px;
+                }
+                .city-wrapper__input {
+                    padding: 10px;
+                    width: 300px;
+                    border: 2px solid #dee7e9;
+                    background-color: #fdfdfe;
+                    cursor: text;
+                    &::placeholder {
+                        color: #dee7e9;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .country-wrapper {
+                .country-wrapper__label {
+                    color: black;
+                    margin-right: 50px;
+                }
+                .country-wrapper__input {
+                    padding: 10px;
+                    width: 300px;
+                    border: 2px solid #dee7e9;
+                    background-color: #fdfdfe;
+                    cursor: text;
+                    &::placeholder {
+                        color: #dee7e9;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .subscription-wrapper {
+                ul {
+                    display: flex;
+                    align-items: flex-start;
+                    li {
+                        padding: 20px 30px;
+                        &:first-of-type {
+                            position: relative;
+                            right: 29px;
+                        }
+                        &:nth-child(2) {
+                            color: orange;
+                        }
+                        &:nth-child(3) {
+                            color: brown;
+                        }
+                        &:nth-child(4) {
+                            color: gold;
+                        }
+                    }
+                }
+            }
+            .buttons-wrapper {
+                .btn-cancel {
+                    border: none;
+                    padding: 10px 45px;
+                    font-weight: bold;
+                    background-color: #F5F8F8;
+                    margin-right: 180px;
+                    border-radius: 5px;
+                }
+                .btn-save {
+                    border: none;
+                    padding: 10px 45px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: #96CC77;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

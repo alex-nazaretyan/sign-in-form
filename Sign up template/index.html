@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="login-form-wrapper">
+        <article class="img-article">
+            <img src="images/Free Vector Login Form copy.jpg" alt="">
+        </article>
+        <article class="login-form-wrapper__content">
+            <form name="log-in">
+                <section class="name-wrapper">
+                    <label for="name" class="name-wrapper__label">
+                        Name:
+                    </label>
+                    <input type="text" name="name" class="name-wrapper__input" placeholder="First Name">
+                </section>
+                <section class="gender-wrapper">
+                    <label for="gender-wrapper__label">
+                        Gender:
+                    </label>
+                    <input type="radio" name="male" id="male" class="gender-wrapper__radio-male"> Male
+                    <input type="radio" name="male" id="male" class="gender-wrapper__radio-female"> Female
+                </section>
+                <section class="date-of-birth-wrapper">
+                    <label for="date-of-birth" class="date-of-birth-wrapper__label">
+                        Date of Birth:
+                    </label>
+                    <input type="text" name="birth" id="date-of-birth"  placeholder="May 25, 1998"class="date-of-birth-wrapper__input">
+                </section>
+                <section class="email-wrapper">
+                    <label for="email" class="email-wrapper__label">
+                       Email:
+                    </label>
+                    <input type="email" name="email" id="email"  placeholder="alex.nazaretyan@gmail.com"class="email-wrapper__input">
+                </section>
+                <section class="city-wrapper">
+                    <label for="city" class="city-wrapper__label">
+                       City:
+                    </label>
+                    <input type="text" name="city" id="city"  placeholder="Varna"class="city-wrapper__input">
+                </section>
+                <section class="country-wrapper">
+                    <label for="country" class="country-wrapper__label">
+                       Country:
+                    </label>
+                    <input type="text" name="country" id="country"  placeholder="Bulgaria"class="country-wrapper__input">
+                </section>
+                <section class="subscription-wrapper">
+                    <ul>
+                        <li>Subscription:</li>
+                        <li>Bronze</li>
+                        <li>Silver</li>
+                        <li>Gold</li>
+                    </ul>
+                </section>
+                <section class="buttons-wrapper">
+                    <button class="btn-cancel">Cancel</button>
+                    <button class="btn-save">Save</button>
+                </section>
+            </form>
+        </article>
+    </section>
+
+</html>

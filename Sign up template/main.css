@@ -1,0 +1,170 @@
+body {
+  background-color: #f1f2f3;
+}
+
+.login-form-wrapper {
+  display: flex;
+  width: 70%;
+  margin: 150px auto;
+}
+
+.login-form-wrapper .img-article {
+  width: 30%;
+}
+
+.login-form-wrapper .img-article img {
+  width: 100%;
+}
+
+.login-form-wrapper .login-form-wrapper__content {
+  background-color: white;
+  width: 65%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  grid-gap: 25px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .name-wrapper .name-wrapper__label {
+  color: black;
+  margin-right: 65px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .name-wrapper .name-wrapper__input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #dee7e9;
+  background-color: #fdfdfe;
+  cursor: text;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .name-wrapper .name-wrapper__input::placeholder {
+  color: #dee7e9;
+  font-weight: bold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .gender-wrapper #male {
+  margin-left: 55px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .date-of-birth-wrapper .date-of-birth-wrapper__label {
+  color: black;
+  margin-right: 20px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .date-of-birth-wrapper .date-of-birth-wrapper__input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #dee7e9;
+  background-color: #fdfdfe;
+  cursor: text;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .date-of-birth-wrapper .date-of-birth-wrapper__input::placeholder {
+  color: #dee7e9;
+  font-weight: bold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .email-wrapper .email-wrapper__label {
+  color: black;
+  margin-right: 65px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .email-wrapper .email-wrapper__input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #dee7e9;
+  background-color: #fdfdfe;
+  cursor: text;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .email-wrapper .email-wrapper__input::placeholder {
+  color: #dee7e9;
+  font-weight: bold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .city-wrapper .city-wrapper__label {
+  color: black;
+  margin-right: 74px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .city-wrapper .city-wrapper__input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #dee7e9;
+  background-color: #fdfdfe;
+  cursor: text;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .city-wrapper .city-wrapper__input::placeholder {
+  color: #dee7e9;
+  font-weight: bold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .country-wrapper .country-wrapper__label {
+  color: black;
+  margin-right: 50px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .country-wrapper .country-wrapper__input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #dee7e9;
+  background-color: #fdfdfe;
+  cursor: text;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .country-wrapper .country-wrapper__input::placeholder {
+  color: #dee7e9;
+  font-weight: bold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul li {
+  padding: 20px 30px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul li:first-of-type {
+  position: relative;
+  right: 29px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul li:nth-child(2) {
+  color: orange;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul li:nth-child(3) {
+  color: brown;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .subscription-wrapper ul li:nth-child(4) {
+  color: gold;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .buttons-wrapper .btn-cancel {
+  border: none;
+  padding: 10px 45px;
+  font-weight: bold;
+  background-color: #F5F8F8;
+  margin-right: 180px;
+  border-radius: 5px;
+}
+
+.login-form-wrapper .login-form-wrapper__content form .buttons-wrapper .btn-save {
+  border: none;
+  padding: 10px 45px;
+  font-weight: bold;
+  color: white;
+  background-color: #96CC77;
+  border-radius: 5px;
+}
